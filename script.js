@@ -1,10 +1,16 @@
 var products = [
-  {name: "Wonder Woman Figurine", price: "12", image: "https://s3.amazonaws.com/mernbook/marketplace/wonder-woman-2977918_960_720.jpg"},
-  {name: "Darth Vader Figurine", price: "19", image: "https://s3.amazonaws.com/mernbook/marketplace/star-wars-2463926_960_720.png"},
-  {name: "Joker Figurine", price: "51", image: "https://s3.amazonaws.com/mernbook/marketplace/joker-1225051_960_720.jpg"},
-  {name: "Tardis Figurine", price: "14", image: "https://s3.amazonaws.com/mernbook/marketplace/tardis.png"},
-  {name: "Old Ford Car Model", price: "46", image: "https://s3.amazonaws.com/mernbook/marketplace/Ford.jpg"},
-  {name: "Storm Trooper Figurine", price: "23", image: "https://s3.amazonaws.com/mernbook/marketplace/stormtrooper-1995015_960_720.jpg"}
+  {name: "MI 7", price: "220", image: "https://gloimg.gbtcdn.com/gb/pdm-product-pic/Electronic/2017/10/06/source-img/20171006100751_75953.jpg"},
+  {name: "REDMI6", price: "250", image: "https://image2.geekbuying.com/ggo_pic/2018-09-20/Xiaomi-Mi-8-Lite-6-26-Inch-6GB-64GB-Smartphone-Blue-736638-.jpg"},
+  {name: "Pocophone", price: "500", image: "https://gloimg.gbtcdn.com/gb/pdm-product-pic/Electronic/2017/10/06/source-img/20171006100751_75953.jpg"},
+  {name: "REDMIPRO", price: "100", image: "https://image2.geekbuying.com/ggo_pic/2018-09-20/Xiaomi-Mi-8-Lite-6-26-Inch-6GB-64GB-Smartphone-Blue-736638-.jpg"},
+  {name: "MI5", price: "600", image: "https://cdn3.techadvisor.co.uk/cmsdata/reviews/3680578/xiaomi_mi8_review_4_thumb1200_4-3.jpg"},
+  {name: "MI1", price: "300", image:"https://cdn2.techadvisor.co.uk/cmsdata/reviews/3680578/xiaomi_mi8_review_2.jpg"},
+   {name: "REDMINOTE-4", price: "350", image: "https://www.gizmochina.com/wp-content/uploads/2018/09/Xiaomi-Mi-8-Lite-Dark-Gray.jpg"},
+  {name: "Pocophone", price: "333", image: "https://asset.winnetnews.com/image/cache/slide/post/image-pocophone-f1-akan-tersedia-di-indonesia-akhir-agustus-2018.jpg"},
+   {name: "Pocophone", price: "460", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoUTTkV-01NCkIpSZo4IFHQPoB55GwVeyv3k5TTD0MkSq4PXft"},
+  {name: "REDMINOTE-8", price: "230", image: "https://cdn3.techadvisor.co.uk/cmsdata/reviews/3680578/xiaomi_mi8_review_4_thumb1200_4-3.jpg"},
+  {name: "REDMINOTE-5", price: "120", image: "https://gloimg.gbtcdn.com/gb/pdm-product-pic/Electronic/2017/10/06/source-img/20171006100751_75953.jpg"},
+  {name: "REDMINOTE-3", price: "190", image: "https://image2.geekbuying.com/ggo_pic/2018-09-20/Xiaomi-Mi-8-Lite-6-26-Inch-6GB-64GB-Smartphone-Blue-736638-.jpg"}
 ];
 var cart = localStorage.getItem('cart') ? JSON.parse(localStorage.getItem('cart')):{
   items: [],

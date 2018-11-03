@@ -1,2 +1,3 @@
-# Shopping Cart
-A simple marketplace and shopping cart implementation using jQuery, Bootstrap and localStorage.
+In the beginning i have used Js buttton which include home,gallery,cart gallery,location,price and so on.Afterwards I have used jquery.(https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_slide_down).which will automitacally up or down after clicking.later a js picture manual gallery..Then cart item according to class workspace which include mobiles.
+
+In the end there is a location i used from(https://www.w3schools.com/graphics/google_maps_intro.asp)w3 school.and in footer i gave my fb profile link for finding me.
